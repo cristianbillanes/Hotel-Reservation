@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_add_hotel_for_manager.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_add_person.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_add_room_for_customer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_add_room_for_manager.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_customer_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_hotel_book_for_customer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_hotel_book_for_manager.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_hotel_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_hotel_details_for_customer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_hotel_room_list_for_cutomer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_hotel_room_list_for_manager.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_log_in_for_customer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_log_in_for_customer2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_log_in_for_manager.xml" value="0.22" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_manager_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_person_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_room_details_book_for_customer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_room_details_for_customer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/activity_room_details_for_manager.xml" value="0.25" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/item_hotel_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/item_person_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/item_room_list_customer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Billanes/AndroidStudioProjects/Hotel_Reservation/app/src/main/res/layout/item_room_list_manager.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

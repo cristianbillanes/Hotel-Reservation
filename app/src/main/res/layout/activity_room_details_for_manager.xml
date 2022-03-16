@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".Room_details_ForManager">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Room #"/>
+    <EditText
+        android:id="@+id/Room_Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Room Name"/>
+    <EditText
+        android:id="@+id/Room_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Room Price"
+        android:layout_gravity="left" />
+
+    <EditText
+        android:id="@+id/Room_Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Room Space"
+        android:layout_gravity="left" />
+
+    <EditText
+        android:id="@+id/Room_Space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Room Details"/>
+    <EditText
+        android:id="@+id/Room_Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textImeMultiLine"
+        android:textSize="20dp"/>
+
+    <Button
+        android:onClick="Update_Room_ForManager"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Update"
+        android:layout_marginHorizontal="50px"
+        />
+    <Button
+        android:onClick="Delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Delete"
+        android:layout_marginHorizontal="50px"
+        />
+    <Button
+        android:onClick="Cancle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Cancle"
+        android:layout_marginHorizontal="50px"
+        />
+
+
+</LinearLayout>

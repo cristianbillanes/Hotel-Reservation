@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".Add_Room_ForCustomer">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:id="@+id/textviewHotel"
+        android:textSize="30dp"
+        android:text="Hotel: "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:id="@+id/textviewRoom"
+        android:textSize="30dp"
+        android:text="RoomName: "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:id="@+id/textviewPrice"
+        android:textSize="30dp"
+        android:text="Price: "/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="30dp"
+        android:text="Check in Date "/>
+
+    <DatePicker
+        android:id="@+id/datePicker_room"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:datePickerMode="spinner"/>
+    <Button
+        android:onClick="Add"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Add"
+        android:layout_marginHorizontal="50px"
+        />
+    <Button
+        android:onClick="Cancle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Cancle"
+        android:layout_marginHorizontal="50px"
+        />
+
+</LinearLayout>

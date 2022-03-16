@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20px"
+    android:background="@color/purple_200">
+    <TextView
+        android:id="@+id/HotelName"
+        android:text="Hotel Name: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"/>
+    <TextView
+        android:id="@+id/HotelName_Show"
+        android:text=" "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/HotelName"
+        android:textSize="22dp"/>
+
+    <TextView
+        android:id="@+id/RoomName"
+        android:text="Room Name: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/HotelName"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/RoomName_Show"
+        android:text=" "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/HotelName"
+        android:layout_toRightOf="@+id/RoomName"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/Date"
+        android:text="Date: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/RoomName"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/Date_Show"
+        android:text=" "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/RoomName"
+        android:layout_toRightOf="@+id/Date"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/Price_Book"
+        android:text="Price: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/Date"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/Price_Book_Show"
+        android:text=" "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/Date"
+        android:layout_toRightOf="@+id/Price_Book"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>

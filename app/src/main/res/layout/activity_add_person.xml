@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".Add_Person">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:id="@+id/TextViewName"
+        android:text="Name"/>
+    <EditText
+        android:id="@+id/Person_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextViewName"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:id="@+id/TextViewAddress"
+        android:layout_below="@+id/Person_Name"
+        android:layout_gravity="left" />
+
+    <EditText
+        android:id="@+id/Person_Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextViewAddress"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/TextViewContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:layout_below="@+id/Person_Address"
+        android:layout_gravity="left" />
+
+    <EditText
+        android:id="@+id/Person_Contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextViewContact"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/TextViewVaccinated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_below="@+id/Person_Contact"
+        android:textSize="25dp"
+        android:text="Vaccinated"/>
+    <RadioButton
+        android:id="@+id/Radio_Vaccinted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Person_Contact"
+        android:layout_toRightOf="@+id/TextViewVaccinated"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/Button_ADD"
+        android:onClick="Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Add"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/TextViewVaccinated"
+        android:layout_marginHorizontal="50px"
+        />
+    <Button
+        android:onClick="Cancle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Cancle"
+        android:layout_below="@+id/Button_ADD"
+        android:layout_marginHorizontal="50px"
+        />
+
+</RelativeLayout>
